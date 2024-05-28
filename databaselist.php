@@ -40,6 +40,7 @@ global $conn;
             <table class="table">
                 <thead>
                     <tr>
+                        <th>Flight Code</th>
                         <th>From</th>
                         <th>Too</th>
                         <th>Date</th>

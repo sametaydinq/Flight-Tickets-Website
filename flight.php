@@ -66,6 +66,7 @@ global $conn;
                                     <th>Date</th>
                                     <th>Time</th>
                                     <th>Price</th>
+                                    
                                 </tr>
                             </thead>
                             <tbody>
@@ -88,6 +89,9 @@ global $conn;
                                                     <td><?= $items['Flight_Date']; ?></td>
                                                     <td><?= $items['Flight_Time']; ?></td>
                                                     <td><?= $items['Price']; ?></td>
+                                                    <td>
+                                                        <a class='btn btn-primary btn-sm' href='/test/buy.php'>Buy</a>
+                                                    </td>
                                                 </tr>
                                                 <?php
                                             }

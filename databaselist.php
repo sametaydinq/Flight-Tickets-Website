@@ -40,7 +40,7 @@ global $conn;
             <table class="table">
                 <thead>
                     <tr>
-                        <th>Flight Code</th>
+                        <th>Flight</th>
                         <th>From</th>
                         <th>Too</th>
                         <th>Date</th>
@@ -70,8 +70,8 @@ global $conn;
                         
 
                         <td>
-                            <a class='btn btn-primary btn-sm' href='/edit.php?Flight_Code=$row[Flight_Code]'>Edit</a>
-                            <a clas='btn btn-danger btn-sm' href='/delete.php?Flight_Code=$row[Flight_Code]''>Delete</a>
+                            <a class='btn btn-primary btn-sm' href='/test/edit.php?Flight_Code=$row[Flight_Code]'>Edit</a>
+                            <a clas='btn btn-danger btn-sm' href='/test/delete.php?Flight_Code=$row[Flight_Code]'>Delete</a>
 
                         </td>
 

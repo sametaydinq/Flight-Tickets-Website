@@ -57,7 +57,7 @@
        
         $succesMessage = "Client added correctly";
 
-        header("Location: /test/databaselist.php");
+        header("Location: /test/Dashboard.php");
         exit;
 
   }while(false);

@@ -28,7 +28,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'GET') {
     $row = $result->fetch_assoc();
 
     if(!$row){
-        header("Location : /test/databaselist.php");
+        header("Location : /test/Dashboard.php");
         exit;
     }
 
@@ -67,7 +67,7 @@ else{
         
         $succesMessage = "Client added correctly";
 
-        header("Location: /test/databaselist.php");
+        header("Location: /test/Dashboard.php");
         exit;
 
     }while(false);
